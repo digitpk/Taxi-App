@@ -3,13 +3,13 @@ import 'package:taxi_app/models/google_location.dart';
 
 class LocationController {
   static Future<GoogleLocation> getCurrentLocation() async {
-    return GoogleLocation("ChIJN1t_tDeuEmsRUsoyG83frY4",
-        LatLng(40.7829, -73.9654), "Central Parl, New York, NY, USA");
+    return GoogleLocation("AIzaSyDNGZSpnI-IHyXsatvA3qB3mtcbIOWAp8I",
+        LatLng(32.204886, 74.1968862), "DIGIT Pakistan, Grw, PK");
   }
 
   static Future<GoogleLocation> getLocationfromId(LatLng position) async {
-    return GoogleLocation("ChIJN1t_tDeuEmsRUsoyG83frY4",
-        LatLng(40.747092, -73.987013), "20 W 34th St, New York, NY 10001, USA");
+    return GoogleLocation("AIzaSyDNGZSpnI-IHyXsatvA3qB3mtcbIOWAp8I",
+        LatLng(32.1604775, 74.2094198), "Meeeran Gee plaza, Grw, PK");
   }
 
   static Future<List<LatLng>> getPolylines(LatLng start, LatLng end) async {

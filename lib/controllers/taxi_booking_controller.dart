@@ -15,10 +15,10 @@ class TaxiBookingController {
   static Future<TaxiDriver> getTaxiDriver(TaxiBooking booking) async {
     return TaxiDriver.named(
         driverPic:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Sidhu_in_Punjab.jpg/440px-Sidhu_in_Punjab.jpg",
-        driverName: "Ram kapoor",
-        driverRating: 4.5,
-        taxiDetails: "Toyota (BFD823-434)");
+            "https://avatars0.githubusercontent.com/u/32742621?s=460&u=c6c403e3d7975bca9037778747b14511ea19af34&v=4",
+        driverName: "Driver",
+        driverRating: 4.0,
+        taxiDetails: "Toyota (GAQ-17-1234)");
   }
 
   static Future<List<Taxi>> getTaxisAvailable() async {
